@@ -68,5 +68,3 @@ end
 class PostsCount < ActiveRecord::Base
   self.table_name = :posts_count
 end
-
-Arel::Middleware::Railtie.insert unless Gem.loaded_specs.key?('railties')

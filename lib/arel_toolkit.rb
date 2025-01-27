@@ -11,7 +11,6 @@ require 'arel_toolkit/pg_result_init'
 
 require 'arel/extensions'
 require 'arel/sql_to_arel'
-require 'arel/middleware'
 require 'arel/enhance'
 require 'arel/transformer'
 
